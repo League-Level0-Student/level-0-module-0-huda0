@@ -7,7 +7,7 @@ package _02_code_flow._2_robot_spiral;
 
 import org.jointheleague.graphical.robot.Robot;
 
-public class RobotSpiral {
+public class RobotSpiralStar {
 
 	public static void main(String[] args) {
 		Robot rob = new Robot(); 

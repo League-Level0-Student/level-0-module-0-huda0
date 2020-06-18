@@ -10,18 +10,19 @@ import java.awt.Color;
 public class PentagonCrazy {
 	
 	private void drawPattern() {
-		
+	Robot R2D2 = new Robot();
 		//  Create a new Robot
-
+			
 		//  Put the robot's pen down
-
+			R2D2.penDown();
 		//  SPEED. Make the robot go at maximum speed (100)
-
+			R2D2.setSpeed(100);
 		//  COLOR. Set the pen to a color that you like for the shape
-
+			R2D2.setPenColor(255, 200, 200);
+			R2D2.move(100);
 		//  NUMBER OF SIDES. Make an int variable for the number of sides the shape has.
 		//  				(Hint: its called PentagonCrazy)
-
+		int sides = 300;
 		//  TURN ANGLE. Make another int variable for the angle you want the robot to turn. 
 		//  			Hint: Divide 360 by the number of sides the shape has.
 
