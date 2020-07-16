@@ -15,23 +15,30 @@ public class QuizGame {
 				// 3.  Use an if statement to check if their answer is correct
 			
 		       if (recorder.equals("2")) {  
-		    	   System.out.println("print");
+		    	   JOptionPane.showMessageDialog(null,"correct");
 		    	   score++;
 		    	   
 		    	   } 
 		       recorder = JOptionPane.showInputDialog("What sound does a cow make?");
 		       
 		       if (recorder.equals("moo")) {
-		    	   
+		    	   JOptionPane.showMessageDialog(null, "great job");
+		    	   score++;
 		       }
 		       
 		       recorder = JOptionPane.showInputDialog("How many colors are in the rainbow?");
 		    		   
 		    	if (recorder.equals("7"))	{
-		    		
+		    		JOptionPane.showMessageDialog(null,"keep it up");
+		    		score++;
 		    	}
 		       
 		       recorder = JOptionPane.showInputDialog("What is the name of Harry Potter's Owl?");
+		       
+		       if (recorder.equals("Hedwig")) {
+		    	   JOptionPane.showMessageDialog(null, "you did it:)");
+		    	   score++;
+		       }
 		    		   
 				// 4.  if the user's answer was correct, add one to their score 
 		
