@@ -29,7 +29,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		//1. Use this online tool (https://www.pixilart.com/) to make a maze image. Size = 500x500
 		//   The maze must be drawn using 4 different colors, one each for: START, END, BACKGROUND, and path.
 		//   Download your maze image to the computer. Drag and drop it into the section5 package 
-		
+				
 		
 		//2. Change the line of code below so that it uses YOUR maze's file name
 		maze = ImageIO.read(getClass().getResource("standardMaze.png"));
